@@ -1,0 +1,85 @@
+
+ .navbar-nav .nav-link:hover {
+    color: #fff !important; 
+    background-color: #6c757d ; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+  html {
+    height: 800px;
+    background-image: linear-gradient(rgb(104, 77, 77), rgb(13, 14, 12));
+}
+#myVideo{
+    position: absolute;
+	object-fit: cover;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	
+}
+
+#asideA{
+    margin: 20px;
+    width:500px;
+    height: 350px;
+    float: left;
+    color: #fff;
+}
+.custom-bg-color {
+    background-color: #806a68; 
+    border-radius: 20px;
+    text-align: justify;
+  }
+  main{
+    margin: 70px;
+padding: auto;
+    height: 350px;
+    float: left;  
+    width: 300px;
+  
+}
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .awesome-button {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 20px;
+   text-align: center;
+  }
+  .awesome-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb); 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+  }
+  #aside{
+   margin: 15px;
+    width:500px;
+    height: 100px;
+    float: right;
+    color: #fff;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+  line-height: 1.5px;
+}
